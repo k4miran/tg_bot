@@ -35,7 +35,7 @@ def button(update: Update, context: CallbackContext) -> None:
 
 def main():
     # Bot tokenınızı çevresel değişkenden alın
-    updater = Updater(os.getenv("TELEGRAM_BOT_TOKEN"), use_context=True)
+    updater = Updater(os.getenv("6750148691:AAHrWphE5rf10Kxjtw9sqS70upUPu0njAF0"), use_context=True)
     dispatcher = updater.dispatcher
 
     # Komut işleyicileri
